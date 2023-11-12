@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "Media Gallery widget for Django",
+  "name": "media-gallery",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm src/*/static/**/*.js & webpack",
+    "build:prod": "rm src/*/static/**/*.js & webpack --mode=production --node-env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToxicFrazzles/media-gallery.git"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.7.2",
+    "ts-loader": "^9.4.2",
+    "tsc": "^2.0.4",
+    "@webpack-cli/generators": "^3.0.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "author": "ToxicFrazzles",
+  "bugs": {
+    "url": "https://github.com/ToxicFrazzles/media-gallery/issues"
+  },
+  "homepage": "https://github.com/ToxicFrazzles/media-gallery#readme"
+}
